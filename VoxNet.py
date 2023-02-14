@@ -13,7 +13,7 @@ from keras.layers.core import Activation, Dense, Dropout, Flatten
 from keras.layers import LeakyReLU
 from keras.regularizers import l2
 from keras.callbacks import LearningRateScheduler, ModelCheckpoint
-from keras.optimizers import SGD
+from tensorflow.keras.optimizers import SGD
 import random
 import numpy as np
 from keras import backend as K
