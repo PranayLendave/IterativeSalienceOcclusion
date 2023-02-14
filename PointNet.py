@@ -111,7 +111,7 @@ def PointNet(classes=40, load_weights=True, num_points =2048):
     		model.load_weights('Models/PointNet-KITTI.h5')
 	if(classes == 3 and load_weights):
     		model.load_weights('Models/PointNet-KITTI3.h5')
-	print model.summary()
+	print(model.summary())
 
 	return model
 
@@ -168,6 +168,7 @@ def get_critical_set_bb(model, point_cloud):
     unique = np.unique(values,return_index=True)
     return unique[1]
 		
+
 
 
 
