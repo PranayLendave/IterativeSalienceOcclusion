@@ -3,7 +3,7 @@
 # Author: Matthew Wicker
 # Contact: matthew.wicker@cs.ox.ac.uk
 
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import h5py
 import numpy as np
 from tqdm import tqdm
